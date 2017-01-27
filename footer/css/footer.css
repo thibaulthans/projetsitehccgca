@@ -1,0 +1,70 @@
+/* va t'on garder le texte ou mettre un logo? si on garde le texte je dois faire le @media query pour gérer plusieurs cas, voir pourquoi le span bouge pas
+
+*/
+
+.white-blue {
+  min-height: 200px;
+  background-color: #35465f;
+  color: white;
+}
+
+.dark-blue {
+  background-color: #20324e;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+}
+
+h2 {
+  width: 200px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+img{
+  padding-right: 15px;
+  float: left;
+  width: 60px;
+  height: 40px;
+}
+
+.margin-footer {
+  margin-top: 20px;
+}
+
+.description {
+margin-top: 30px;
+font-size: 16px;
+background:#ccc;
+height:200px;
+line-height:200px;
+text-align:center; /* centrage horizontal */ }
+
+span {
+font-size: 18px;
+width:400px; /* largeur de la zone de texte */
+text-align: center;
+border:1px solid #fff;
+vertical-align:middle;
+display:inline-block;
+line-height:1.2; /* on rétablit le line-height */
+text-align:center; /* ... et l'alignement du texte */
+}
+
+
+@media (min-width : 500px) {
+
+span{
+
+}
+
+@media (max-width : 499px) {
+
+  span{
+    color: blue !important;
+  }
