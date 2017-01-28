@@ -1,8 +1,4 @@
 
-.carre{
-  height: 200px;
-  width : 200px;
-}
 
 .carre_center_horizontal{
   margin: 0 auto;
@@ -14,4 +10,13 @@
 
 .carre_margin_top{
   margin-top: 40px;
+}
+
+.carre{
+  height: 100%;
+  width : 80%;
+}
+
+.text_vousetes_responsive-sx{
+  font-size: 50px;
 }
