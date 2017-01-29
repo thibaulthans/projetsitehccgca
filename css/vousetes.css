@@ -18,11 +18,11 @@
 }
 
 .text_size{
-  font-size: 1.9vw ;
+  font-size: 28px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .text_size{
-    font-size: 6.1vw;
+    font-size: 4vw;
   }
 }
