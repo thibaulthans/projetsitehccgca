@@ -1,14 +1,35 @@
 
-.b{ //text
+.boxe_circle{ //text
   border-color: red;
   border-style: solid;
   border-width: 2px;
   border-radius: 50%;
 }
 
+.u{
+  margin: 0px;
+}
+
+.glyficon{
+  font-size:80px;
+}
+
 .color_bleu_royal{
   background-color: #2d466d;
 }
+
+.color_bleu_pale{
+  background-color: #3579b5;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.entete_partie{
+  height: 40px;
+  background-color: #3579b5;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+
 
 .navbar-default .navbar-nav>li>a{
   color : white;
@@ -38,6 +59,10 @@ text-align: center;
 
 .text_royalbleu{
   color : #2d466d;
+}
+
+.text_white{
+  color : white;
 }
 
 .text_white{
