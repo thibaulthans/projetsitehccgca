@@ -6,7 +6,7 @@
   border-radius: 50%;
 }
 
-.u{
+.nomargin{
   margin: 0px;
 }
 
@@ -24,10 +24,24 @@
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-.entete_partie{
+.entete_partie_bleu{
   height: 40px;
   background-color: #3579b5;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+
+}
+
+.color_texture_white{
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.entete_partie_white{
+  height: : 40px;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 
