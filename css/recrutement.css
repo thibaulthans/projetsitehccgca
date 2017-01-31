@@ -1,4 +1,6 @@
 
-input.my-file-selector{
-  width: 100px;
+
+
+input.custom-file-input{
+  opacity: 0;
 }
