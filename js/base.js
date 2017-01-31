@@ -2,21 +2,40 @@
 /** buton télécharger **/
 
 
-document.querySelector("html").classList.add('js');
+document.querySelector("html").classList.add('jsun');
 
-var fileInput  = document.querySelector( ".input-file" ),
-    button     = document.querySelector( ".input-file-trigger" ),
-    the_return = document.querySelector(".file-return");
+var fileInput1  = document.querySelector( "#input-fileun" ),
+    button1    = document.querySelector( "#input-file-triggerun" ),
+    the_return1 = document.querySelector("#file-returnun");
 
-button.addEventListener( "keydown", function( event ) {
+button1.addEventListener( "keydown", function( event ) {
     if ( event.keyCode == 13 || event.keyCode == 32 ) {
-        fileInput.focus();
+        fileInput1.focus();
     }
 });
-button.addEventListener( "click", function( event ) {
-   fileInput.focus();
+button1.addEventListener( "click", function( event ) {
+   fileInput1.focus();
    return false;
 });
-fileInput.addEventListener( "change", function( event ) {
-    the_return.innerHTML = this.value;
-});  
+fileInput1.addEventListener( "change", function( event ) {
+    the_return1.innerHTML = this.value;
+});
+
+document.querySelector("html").classList.add('jsdeux');
+
+var fileInput2  = document.querySelector( "#input-filedeux" ),
+    button2     = document.querySelector( "#input-file-triggerdeux" ),
+    the_return2 = document.querySelector("#file-returndeux");
+
+button2.addEventListener( "keydown", function( event ) {
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {
+        fileInput2.focus();
+    }
+});
+button2.addEventListener( "click", function( event ) {
+   fileInput2.focus();
+   return false;
+});
+fileInput2.addEventListener( "change", function( event ) {
+    the_return2.innerHTML = this.value;
+});
