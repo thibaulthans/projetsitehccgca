@@ -1,8 +1,25 @@
-.iframe {
-  margin-left: auto;
-  margin-right: auto;
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
 }
 
-.email {
-  padding-bottom: 20px;
+#content_inner {
+    width: 960px;
+    margin: auto;
+    padding-top: 0;
+}
+
+form.formit {
+    margin-left: 10px;
+}
+
+div.cara {
+    clear: both;
+    width: 940px;
+    height: 1px;
+    background-color: #cccccc;
+    margin-top: 40px;
+    margin-left: 10px;
 }
