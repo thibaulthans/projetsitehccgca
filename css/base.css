@@ -79,10 +79,6 @@ text-align: center;
   color : white;
 }
 
-.text_white{
-  color : white;
-}
-
 .backgroung_grey{
   background-color: grey;
 }
@@ -338,3 +334,25 @@ div.cara {
 }
 
  /** Search bar **/
+
+textarea.noresize{
+  resize: none;
+}
+
+ /** main button **/
+
+.button_pers{
+  box-shadow: 0 10px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    width : 400px ;
+    border-radius: 2px;
+    background-color: #2d466d;
+}
+
+
+ /** Dropdown **/
+
+ .dropdown_pers{
+   width: 400px;
+   margin-top: 0px;
+   opacity: 0.5;
+ }

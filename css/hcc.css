@@ -1,9 +1,9 @@
 
-.test{
-  width : 400px ;
-  background-color: #3071a9;
-}
 
 .testa{
   width : 400px;
+}
+
+.image_background{
+  background-image: url(../img/diagmonds--light--1920x1080.png);
 }
