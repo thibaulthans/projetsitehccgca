@@ -346,13 +346,5 @@ textarea.noresize{
     width : 400px ;
     border-radius: 2px;
     background-color: #2d466d;
+    height: 40px;
 }
-
-
- /** Dropdown **/
-
- .dropdown_pers{
-   width: 400px;
-   margin-top: 0px;
-   opacity: 0.5;
- }

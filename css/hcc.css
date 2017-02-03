@@ -7,3 +7,30 @@
 .image_background{
   background-image: url(../img/diagmonds--light--1920x1080.png);
 }
+
+/** Dropdown button **/
+
+.dropdown_button_pers{width: 400px; margin-top: 0px;background-color: rgba(255, 255, 255, 0.3)}
+
+
+.btn-primary{
+ border-width: 0px;
+}
+
+.btn-primary: active{
+ background-color: #2d466d;
+}
+
+.btn-primary: focus{
+ background-color: #2d466d;
+}
+
+ /** Dropdown list **/
+
+
+
+.dropdown-menu{
+ border-radius: 0px;
+ padding-bottom: 0px;
+ padding-top: 0px;
+}
