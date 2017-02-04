@@ -7,6 +7,7 @@ form {
 
 .contactinfo {
   display: inline-block;
+  text-align: center;
 }
 
 #content_inner {
@@ -17,4 +18,15 @@ form {
 
 .nopaddingleft {
   padding-left: 0px;
+}
+
+.gmaps-frame {
+  width: 90%;
+  height: 480px;
+  border: 0;
+  margin: 5%;
+}
+
+.mapit {
+  height: auto;
 }
