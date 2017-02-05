@@ -24,9 +24,28 @@ form {
   width: 90%;
   height: 480px;
   border: 0;
-  margin: 5%;
+  margin-left: 5%;
 }
 
 .mapit {
   height: auto;
+}
+
+/* format du formulaire de contact pour tout les écrans quand ceux ci sont inférieurs à  1280px*/
+
+@media all and (max-width: 1280px)
+{
+  .form-control {
+    margin-top: 10px;
+  }
+}
+
+/* information map pour écran taille tablette ou inférieur */
+
+@media all and (max-width: 768px)
+{
+  .contactinfo {
+    display: list-item;
+    text-align: left;
+  }
 }
