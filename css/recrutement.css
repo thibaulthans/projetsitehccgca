@@ -2,3 +2,30 @@
 input.custom-file-input{
   opacity: 0;
 }
+
+ /** Button **/
+
+
+ .btn-primary{
+  border-width: 0px;
+ }
+
+ .btn-primary: active{
+  background-color: #2d466d;
+ }
+
+ .btn-primary: focus{
+  background-color: #2d466d;
+ }
+
+  /** Dropdow select **/
+
+  select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}

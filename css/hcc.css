@@ -1,16 +1,10 @@
 
 
-.testa{
-  width : 400px;
-}
 
 .image_background{
   background-image: url(../img/diagmonds--light--1920x1080.png);
 }
 
-/** Dropdown button **/
-
-.dropdown_button_pers{width: 400px; margin-top: 0px;background-color: rgba(255, 255, 255, 0.3)}
 
 
 .btn-primary{
