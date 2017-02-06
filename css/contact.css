@@ -21,10 +21,9 @@ form {  /** à revoir **/
 }
 
 .gmaps-frame {
-  width: 90%;
   height: 480px;
   border: 0;
-  margin-left: 5%;
+  width: 100%;
 }
 
 .mapit {
