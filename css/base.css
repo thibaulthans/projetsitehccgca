@@ -383,3 +383,8 @@ textarea.noresize{
 /** Dropdown button **/
 
 .dropdown_button_pers{width: 400px; margin-top: 0px;background-color: rgba(255, 255, 255, 0.3)}
+
+ /** Dropdown list **/
+  .a_dropdownlist{
+    color: black;
+  }
