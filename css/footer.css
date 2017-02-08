@@ -1,4 +1,4 @@
-/* va t'on garder le texte ou mettre un logo? si on garde le texte je dois faire le @media query pour gérer plusieurs cas, voir pourquoi le span bouge pas
+/* va t'on garder le texte ou mettre un logo? si on garde le texte je dois faire le @media query pour gérer plusieurs cas,
 
 */
 
@@ -24,40 +24,53 @@
 }
 
 #description-cabinet  {
-  /*background:#ccc;*/
-  font-size: 20px;
-  width:200px;
+  font-size: 1.3em;
   height:200px;
   line-height:250px;
-  margin-left: 25%;
-  text-align:center; /* centrage horizontal */ }
+
+/*  width:200px;
+  background:#ccc;
+  margin-left: 10%;
+  text-align:center; */
+}
 
 #span-description {
-    width:320px; /* largeur de la zone de texte */
-    padding:10px; /* aération interne de la zone de texte */
-    /*border:1px solid #fff;*/
+    width:320px;
+    padding:10px;
+    margin-left: 10%;
     vertical-align:middle;
     display:inline-block;
-    line-height:1.2; /* on rétablit le line-height */
-  text-align:left; /* ... et l'alignement du texte */ }
+    line-height:1.2;
 
-@media all and (max-width: 1200px) {
+    /*border:1px solid #fff;
+    text-align:left; */
+
+  }
+
+@media all and (max-width: 1199px) {
 
   #description-cabinet  {
-    background:#ccc;
-    width:100%;
-    height:100px;
-    line-height:50px;
-  text-align:left; /* centrage horizontal */ }
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 1.5em;
+    height:auto;
+    line-height:normal;
+    text-align:center;
+
+    /*width: 60%;
+      background:#ccc; */
+   }
 
   #span-description {
-      margin-top: 20px;
-      width:100%; /* largeur de la zone de texte */
-      padding:10px; /* aération interne de la zone de texte */
-      border:1px solid #fff;
-      vertical-align:middle;
-      line-height:1.2; /* on rétablit le line-height */
-    text-align:left; /* ... et l'alignement du texte */ }
+    width:auto; /* largeur de la zone de texte */
+    padding:0; /* aération interne de la zone de texte */
+    border:0;
+    margin: 0;
+    
+    /*vertical-align:middle;
+    line-height:1.2;
+    text-align:center;  */
+    }
 
     .horizontal-line {
       width: 30%;
