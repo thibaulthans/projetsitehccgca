@@ -6,13 +6,16 @@
         <link rel="stylesheet" type="text/css" href="css/waves.min.css" />
 
     </head>
-    <body>
-      <a href="#" class="button">Click Here</a>
+    <span id="clickme">Cliquez-moi !</span>
 
-<script type="text/javascript">
-  Waves.attach('.button');
-</script>    
+    <script>
 
-        <script type="text/javascript" src="js/waves.min.js"></script>
+        var element = document.getElementById('clickme');
+
+        element.onclick = function() {
+            alert("Vous m'avez cliqué !");
+        };
+
+    </script>
     </body>
 </html>
