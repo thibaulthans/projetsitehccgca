@@ -64,7 +64,11 @@
     width:auto; /* largeur de la zone de texte */
     padding:0; /* aération interne de la zone de texte */
     border:0;
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin:0;
+>>>>>>> origin/master
 
     /*vertical-align:middle;
     line-height:1.2;
