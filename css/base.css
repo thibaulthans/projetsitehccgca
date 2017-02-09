@@ -1,4 +1,5 @@
 
+ /** test **/
 .boxe_circle{ //text
   border-color: red;
   border-style: solid;
@@ -50,7 +51,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
 
 
 .navbar-default .navbar-nav>li>a{
-  color : white;
+  color : black;
 }
 
 .centrage_vertical_force{
@@ -370,7 +371,7 @@ textarea.noresize{
  /** navbar **/
 
 .navbar-default .navbar-nav>li>a:hover{
-  color: white
+  color: black;
 }
 
  /** Dropdown select option **/

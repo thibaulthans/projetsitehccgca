@@ -32,12 +32,7 @@ form {  /** à revoir **/
 
 /* format du formulaire de contact pour tout les écrans quand ceux ci sont inférieurs à  1280px*/
 
-@media all and (max-width: 1280px)
-{
-  .form-control {
-    margin-top: 10px;
-  }
-}
+
 
 /* information map pour écran taille tablette ou inférieur */
 
