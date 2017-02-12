@@ -1,5 +1,7 @@
 
-
+body {
+  padding-top: 64px;
+}
 
  /** test **/
 .boxe_circle{ //text
@@ -95,7 +97,7 @@ text-align: center;
 }
 
 .no_margin{
-  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .margin_dixpx{
@@ -137,6 +139,10 @@ form{
 
 input.search_personalize{
   margin-left: 0px;
+}
+
+form.navbar-right{
+  margin-right: 0px;
 }
 
 .btn-circle {
@@ -393,4 +399,18 @@ textarea.noresize{
  /** Dropdown list **/
   .a_dropdownlist{
     color: black;
+  }
+
+
+  /** navbar **/
+
+  .navbar-default{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    -webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    border : none;
+    border-radius: 0px;
+
   }

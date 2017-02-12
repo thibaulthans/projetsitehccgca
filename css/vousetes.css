@@ -41,9 +41,6 @@ div.shadow:hover {
   font-size: 28px;
 }
 
-.navbar-default{
-  padding-top: 10px;
-}
 
 @media screen and (max-width: 600px) {
   .text_size{
