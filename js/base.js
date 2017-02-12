@@ -49,18 +49,18 @@ fileInput2.addEventListener( "change", function( event ) {
 
 function testScroll(ev){
   var elmt = document.querySelector(".navbar-default");
-    if(window.pageYOffset<100){
+    if(window.pageYOffset<10){
       elmt.style.paddingTop="7px";
       elmt.style.paddingBottom="7px";
     }
-    if(window.pageYOffset>100){
+    if(window.pageYOffset>10){
       elmt.style.paddingTop="0px";
       elmt.style.paddingBottom="0px";
     }
-    if(window.pageYOffset>300){
+    if(window.pageYOffset>210){
       elmt.style.display="none";
     }
-    if(window.pageYOffset<280){
+    if(window.pageYOffset<210){
       elmt.style.display="block";
     }
     document.querySelector(".navbar-default").style.WebkitTransition = "all 0.5s";
