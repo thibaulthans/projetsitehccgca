@@ -18,7 +18,7 @@
 .glyficon{
   font-size:80px;
 }
-cara
+
 .color_bleu_royal{
   background-color: #2d466d;
 }
@@ -123,6 +123,10 @@ text-align: center;
 .margin_quarante{
   margin-top: 40%;
   margin-bottom: 15%;
+}
+
+.margin_centvingtpx{
+  margin-bottom: 120px;
 }
 
 form{
