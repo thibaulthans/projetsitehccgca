@@ -13,3 +13,10 @@ function dropdown_action() {
     i=i+1;
   console.log(i);
 }
+
+$(document).ready(function() {
+  $(".scroll").on("click", function() {
+    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top },700); // Go
+    return false;
+  });
+});
