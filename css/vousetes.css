@@ -10,7 +10,7 @@ div.shadow:hover {
   transition: transform 0.4s ease-in-out;
 	}
 
-  div.shadow::after{
+  div.shadow:: after{
   -webkit-box-shadow: 0px 0px 19px -3px rgba(98,126,140,1);
   -o-box-shadow: 0px 0px 19px -3px rgba(98,126,140,1);
   -moz-box-shadow: 0px 0px 19px -3px rgba(98,126,140,1);
