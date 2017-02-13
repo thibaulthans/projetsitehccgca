@@ -41,6 +41,16 @@ div.shadow:hover {
   font-size: 28px;
 }
 
+.glyphicon{
+  line-height: normal;;
+}
+
+.section_hover{
+  background-color: green;
+  height: 100px;
+  position: absolute;
+}
+
 
 @media screen and (max-width: 600px) {
   .text_size{
