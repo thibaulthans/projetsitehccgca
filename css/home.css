@@ -5,3 +5,25 @@
   height: 43px;
   font-family: "verdana";
 }
+
+.image_background_hcc{
+  background-image: url(../img/diagmonds--light--1920x1080.png);
+    height: 250px;
+}
+
+.image_background_gca{
+  background-image: url(../img/shattered-1920x1080.png);
+  height: 250px;
+}
+
+.moreabout {
+  text-align: center;
+}
+
+.recrutement {
+  height: 250px;
+}
+
+.our_team {
+  height: 250px;
+}
