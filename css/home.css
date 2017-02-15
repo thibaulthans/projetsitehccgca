@@ -7,23 +7,45 @@
 }
 
 .image_background_hcc{
-  background-image: url(../img/diagmonds--light--1920x1080.png);
-    height: 250px;
+    /*background-image: url(../img/diagmonds--light--1920x1080.png);*/
+    background-image: url(../img/16735696_10206409650439934_1343796109_o.png);
+    height: 350px;
+    position: relative;
 }
 
 .image_background_gca{
   background-image: url(../img/shattered-1920x1080.png);
-  height: 250px;
+  height: 350px;
 }
 
-.moreabout {
-  text-align: center;
-}
 
-.recrutement {
-  height: 250px;
+.why_us {
+  height: 350px;
 }
 
 .our_team {
-  height: 250px;
+  height: 350px;
+}
+
+.btn_devis {
+  text-align: center;
+  margin-top: 230px;
+  box-shadow: 0 10px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  width : 150px ;
+  border-radius: 5px;
+  background-color: #2d466d;
+  height: 40px;
+}
+
+.btn_moreabout {
+  text-align: center;
+  margin-top: 175px;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  background-color: #2065a8;
+}
+
+.btn_moreabout:hover {
+  background-color: #2065a8;
 }
