@@ -118,6 +118,10 @@ text-align: center;
   margin: 2px;
 }
 
+.margin_vingtpx{
+  margin-bottom: 20px;
+}
+
 .margin_cinquantepx{
   margin-bottom: 50px;
 }
@@ -133,6 +137,14 @@ text-align: center;
 
 .margin_centvingtpx{
   margin-bottom: 120px;
+}
+
+.margin_centcinquantepx {
+  margin-bottom: 150px;
+}
+
+.margin_deuxcent {
+  margin-bottom: 200px;
 }
 
 form{
