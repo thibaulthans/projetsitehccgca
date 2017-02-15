@@ -1,7 +1,25 @@
 
-.align{
-  text-align: center;
-  font-size: 50px;
-  height: 43px;
-  font-family: "verdana";
+#global {
+width:150px;
+height: 50px;
+}
+#global div{
+float:left;
+height:120px;
+}
+
+.style{
+  font-size: 4vw;
+}
+
+.plus{
+  margin-left: 80px;
+}
+
+.g{
+  height: 50px;
+}
+
+.a{
+  height: 60px;
 }
