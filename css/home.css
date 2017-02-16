@@ -44,3 +44,29 @@
   background-color: white;
   color: #2d466d;
 }
+
+/** logo **/
+
+.global div{
+  display: inline-block;
+}
+
+.style_logo{
+  font-size: 44px;
+}
+
+.p_logo_haut{
+  margin-bottom: 0px;
+}
+
+.div_logo{
+  height: 40px;
+}
+
+.logo_haut_right{
+  padding-left: 71px;
+}
+
+.logo_bas_right{
+  padding-left: 72px;
+}

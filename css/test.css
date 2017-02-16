@@ -1,19 +1,15 @@
 
+/**
 #global {
 width:150px;
 height: 50px;
 }
 #global div{
 float:left;
-height:120px;
 }
 
 .style{
-  font-size: 4vw;
-}
-
-.plus{
-  margin-left: 80px;
+  font-size: 45px;
 }
 
 .g{
@@ -22,4 +18,4 @@ height:120px;
 
 .a{
   height: 60px;
-}
+} **/
