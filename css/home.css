@@ -47,26 +47,30 @@
 
 /** logo **/
 
-.global div{
+.global{
   display: inline-block;
 }
 
+.div_g{
+  height: 35px;
+  padding-left: 64px;
+}
+
+.div_a{
+  height: 35px;
+  padding-left: 62px;
+  margin-top: -13px;
+}
+
+.aa{
+  height: 10px;
+  width: 25px;
+}
+
 .style_logo{
-  font-size: 44px;
+  font-size: 40px;
 }
 
-.p_logo_haut{
-  margin-bottom: 0px;
-}
-
-.div_logo{
-  height: 40px;
-}
-
-.logo_haut_right{
-  padding-left: 71px;
-}
-
-.logo_bas_right{
-  padding-left: 72px;
+.bloc_logo{
+  width: 300px;
 }

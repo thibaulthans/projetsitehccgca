@@ -50,18 +50,12 @@ fileInput2.addEventListener( "change", function( event ) {
 function testScroll(ev){
   var elmt = document.querySelector(".navbar-default");
     if(window.pageYOffset<10){
-      elmt.style.paddingTop="7px";
-      elmt.style.paddingBottom="7px";
+      elmt.style.paddingTop="6px";
+      elmt.style.paddingBottom="6px";
     }
     if(window.pageYOffset>10){
       elmt.style.paddingTop="0px";
       elmt.style.paddingBottom="0px";
-    }
-    if(window.pageYOffset>210){
-      elmt.style.display="none";
-    }
-    if(window.pageYOffset<210){
-      elmt.style.display="block";
     }
     document.querySelector(".navbar-default").style.WebkitTransition = "all 0.5s";
 
