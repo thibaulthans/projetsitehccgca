@@ -62,8 +62,13 @@ border-color: white;
 }
 
 .div_g{
-  height: 35px;
+  height: 32px;
   padding-left: 64px;
+}
+
+.div_g_s{
+  height: 14px;
+  padding-left: 26px;
 }
 
 .div_a{
@@ -72,15 +77,40 @@ border-color: white;
   margin-top: -13px;
 }
 
-.aa{
+.div_a_s{
+  height: 35px;
+  padding-left: 27px;
+  margin-top: -4px;
+}
+
+.div_milieu{
   height: 10px;
   width: 25px;
+}
+
+.div_milieu_s{
+  height: 5px;
+  width: 8px;
 }
 
 .style_logo{
   font-size: 40px;
 }
 
+.style_logo_s{
+  font-size: 16px;
+  color: white;
+}
+
 .bloc_logo{
   width: 300px;
+}
+
+.bloc_logo_s{
+  width: 100px;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+  padding-left: 7px;
 }

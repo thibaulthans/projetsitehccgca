@@ -1,21 +1,37 @@
 
 
-#global {
-width:150px;
-height: 50px;
-}
-#global div{
-float:left;
-}
-
-.style{
-  font-size: 45px;
-}
-
-.g{
-  height: 50px;
-}
-
+/**
 .a{
-  height: 60px;
-} 
+background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+height: 400px;
+width: 1400px;
+} *//
+
+.btn-6 {
+  $btn-color: random-color($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+	color: tint($btn-color);
+
+  span {
+    position: absolute;
+    display: block;
+    @include size(0);
+    border-radius: 50%;
+    background: $btn-color-dark;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: tint($btn-color, 75%);
+
+    span {
+      @include size($btn-width*2.25);
+    }
+  }
+
+  &:active {
+    background: $btn-color;
+  }
+}
