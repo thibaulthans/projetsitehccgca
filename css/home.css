@@ -19,31 +19,41 @@
 }
 
 
-.why_us {
+.why_us, .our_team {
   height: 350px;
+  
 }
 
-.our_team {
-  height: 350px;
-}
-
-.btn_home {
+.btn_home, .btn_home_fond {
   text-align: center;
   border-radius: 5px;
   width: 150px;
-  height: 60px;
-  border-color: #2d466d;
-  border-width: 2px;
-  background-color: white;
-  color: #2d466d;
-  font-size: 16px;
-  font-weight: bold;
+  height: 50px;
+
+  font-size: 20px;
+  background: rgba(255,255,255,0.1);
 }
 
-.btn_home:hover {
-  background-color: white;
-  color: #2d466d;
+.btn_home{
+  border-color: #2d466d;
+  color: black;
+  border-width: 2px;
 }
+
+.btn_home_fond {
+border-width: 1px;
+color: white;
+border-color: white;
+}
+
+.btn_home:hover, .btn_home_fond:hover {
+}
+
+.btn_home_fond:hover {
+  background:rgba(255,255,255,0.3);
+}
+
+
 
 /** logo **/
 
