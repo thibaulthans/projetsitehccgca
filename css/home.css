@@ -17,52 +17,72 @@
 }
 
 
-.why_us, .our_team, .recruitment, .skill {
-  min-height: 350px;
 
-}
+/* BOUTON !!!! */
 
+/* Général */
 
-
-.why_us {
- min-height: 300px;
-}
-
-
-.btn_home:hover {
-
-}
-
-
-.btn_home, .btn_home_fond {
+.btn_home, .btn_home_recruitment, .btn_home_skill {
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 20px;
+/*  box-shadow: 0px 0px 7px 1px rgba(98, 96, 107, 0.8);*/
 }
+
+.btn_home:hover, .btn_home_recruitment:hover, .btn_home_skill:hover {
+  color: white;
+}
+
+/* Particulier */
 
 .btn_home{
   border-color: #2d466d;
-  background: #2d466d;
+  background: rgba(45,70,109,1);
   color: white;
   border-width: 2px;
+  background: linear-gradient(to bottom right, #2D466D, #142D54);
 }
 
-.btn_home_fond {
+.btn_home_recruitment {
 border-width: 1px;
 bottom: 10px;
 background:rgba(255,255,255,0.2);
-
 }
 
-.btn_home:hover, .btn_home_fond:hover {
-  color: white;
+.btn_home_skill {
+  border-width: 1px;
+  bottom: 10px;
+  background:rgba(255,255,255,0.2);
 }
 
-.btn_home_fond:hover {
+.btn_home_recruitment:hover {
   background:rgba(255,255,255,0.3);
 }
 
 .btn_home:hover {
+color: #2d466d;
+background: white;
+border-color: #2d466d;
+
+}
+
+.btn_home_skill:hover {
+  background:rgba(255,255,255,0.3);
+}
+
+
+
+@media all and (min-width: 600px)
+{
+  .btn_home_recruitment {
+  margin-top: 71px;
+  }
+
+  .why_us, .our_team, .recruitment, .skill {
+    min-height: 250px;
+  }
+
+
 }
 
 
