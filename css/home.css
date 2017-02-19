@@ -21,7 +21,7 @@
 
 .why_us, .our_team {
   height: 350px;
-  
+
 }
 
 .btn_home, .btn_home_fond {
@@ -66,21 +66,10 @@ border-color: white;
   padding-left: 64px;
 }
 
-.div_g_s{
-  height: 14px;
-  padding-left: 26px;
-}
-
 .div_a{
   height: 35px;
   padding-left: 62px;
   margin-top: -13px;
-}
-
-.div_a_s{
-  height: 35px;
-  padding-left: 27px;
-  margin-top: -4px;
 }
 
 .div_milieu{
@@ -88,29 +77,10 @@ border-color: white;
   width: 25px;
 }
 
-.div_milieu_s{
-  height: 5px;
-  width: 8px;
-}
-
 .style_logo{
   font-size: 40px;
 }
 
-.style_logo_s{
-  font-size: 16px;
-  color: white;
-}
-
 .bloc_logo{
   width: 300px;
-}
-
-.bloc_logo_s{
-  width: 100px;
-}
-
-.navbar-brand{
-  padding-top: 0px;
-  padding-left: 7px;
 }

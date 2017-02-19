@@ -451,3 +451,42 @@ textarea.noresize{
   .style_body_hccgca{
     background-color: #e0e5ea;
   }
+
+
+  /** logo navbar **/
+
+
+  .global{
+    display: inline-block;
+  }
+
+
+  .div_milieu_s{
+    height: 5px;
+    width: 8px;
+  }
+
+  .div_a_s{
+    height: 35px;
+    padding-left: 26.5px;
+    margin-top: -4px;
+  }
+
+  .div_g_s{
+    height: 14px;
+    padding-left: 25.5px;
+  }
+
+  .style_logo_s{
+    font-size: 16px;
+    color: white;
+  }
+
+  .bloc_logo_s{
+    width: 100px;
+  }
+
+  .navbar-brand{
+    padding-top: 0px;
+    padding-left: 10px;
+  }
