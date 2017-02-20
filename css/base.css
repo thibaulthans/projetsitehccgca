@@ -5,6 +5,10 @@ body {
   padding-top: 64px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .border_text {
   margin-left: 15px;
@@ -84,7 +88,7 @@ text-align: center;
   color: #2d466d ;
 }
 
-.backgroung_royalbleu{
+.background_royalbleu{
   background-color: #2d466d ;
 }
 
@@ -96,11 +100,11 @@ text-align: center;
   color : white;
 }
 
-.backgroung_grey{
+.background_grey{
   background-color: grey;
 }
 
-.backgroung_white{
+.background_white{
   background-color: white;
 }
 
