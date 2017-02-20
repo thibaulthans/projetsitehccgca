@@ -104,17 +104,33 @@ border-color: #2d466d;
 }
 
 .div_g{
-  height: 32px;
-  padding-left: 64px;
+ /** height: 34px;
+ padding-left: 62.5px; **/
+ height: 35px;
+ padding-left: 54.5px;
 }
 
 .div_a{
   height: 35px;
-  padding-left: 62px;
-  margin-top: -13px;
+/**  padding-left: 62.5px;
+  margin-top: -12.5px; **/
+  padding-left: 56px;
+  margin-top: -9px;
+
 }
 
-.div_milieu{
+.div_milieu_un{
+  height: 10px;
+  width: 25px;
+}
+
+.div_milieu_deux{
+  height: 7px;
+  width: 25px;
+
+}
+
+.div_milieu_trois{
   height: 10px;
   width: 25px;
 }
@@ -130,17 +146,15 @@ border-color: #2d466d;
 
 #slide1 {
    background: url(../img/white.PNG) center 0 no-repeat fixed;
-   height: 1000px;
+   height: 300px;
 }
 
 #slide2 {
    background:url(../img/diagmonds--light--1920x1080GRIS.png) center 0 no-repeat fixed;
-   height: 1000px;
 }
 
 #slide3 {
    background: url(../img/white.PNG) center 0 no-repeat fixed;
-   height: 1000px;
 }
 
 #slide4 {
@@ -148,18 +162,24 @@ border-color: #2d466d;
    height: 1000px;
 }
 
+#slide5 {
+   background: url(../img/white.PNG) center 0 no-repeat fixed;
+   height: 1000px;
+}
+
 /** **/
 
 .letter_scale_plus{
-  transform: scale(1.1);
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+  zoom: 115%;
+  transform-origin: 90% 90%;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 
 .letter_scale_moins{
-  transform: sacle(1);
-  /**
-  -webkit-transition-duration: transform 1s;
-  transition-duration: transform 1s; **/
+  zoom: 100%;
+    transform-origin: 50% 50%;
+  -webkit-transition-duration: transform 0.3s;
+  transition-duration: transform 0.5s;
 
 }
