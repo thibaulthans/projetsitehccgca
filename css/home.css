@@ -6,8 +6,9 @@
   font-family: "verdana";
 }
 
+
+/**
 .image_background_hcc{
-    /*background-image: url(../img/diagmonds--light--1920x1080.png);*/
     background-image: url(../img/diagmonds--light--1920x1080GRIS.png);
     position: relative;
 }
@@ -15,6 +16,8 @@
 .image_background_gca{
   background-image: url(../img/shattered-1920x1080.png);
 }
+
+**/
 
 
 <<<<<<< HEAD
@@ -122,4 +125,41 @@ border-color: #2d466d;
 
 .bloc_logo{
   width: 300px;
+}
+
+
+#slide1 {
+   background: url(../img/white.PNG) center 0 no-repeat fixed;
+   height: 1000px;
+}
+
+#slide2 {
+   background:url(../img/diagmonds--light--1920x1080GRIS.png) center 0 no-repeat fixed;
+   height: 1000px;
+}
+
+#slide3 {
+   background: url(../img/white.PNG) center 0 no-repeat fixed;
+   height: 1000px;
+}
+
+#slide4 {
+   background: url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
+   height: 1000px;
+}
+
+/** **/
+
+.letter_scale_plus{
+  transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.letter_scale_moins{
+  transform: sacle(1);
+  /**
+  -webkit-transition-duration: transform 1s;
+  transition-duration: transform 1s; **/
+
 }
