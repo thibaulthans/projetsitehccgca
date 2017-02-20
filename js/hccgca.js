@@ -16,7 +16,7 @@ function dropdown_action() {
 
 $(document).ready(function() {
   $(".scroll").on("click", function() {
-    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top },700); // Go
+    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top },700);
     return false;
   });
 });
