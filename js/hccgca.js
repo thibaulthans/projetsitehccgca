@@ -1,4 +1,5 @@
 
+
 document.getElementById("btn_action").onclick = function() {dropdown_action()};
   var i=0;
 
@@ -13,10 +14,3 @@ function dropdown_action() {
     i=i+1;
   console.log(i);
 }
-
-$(document).ready(function() {
-  $(".scroll").on("click", function() {
-    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top },700);
-    return false;
-  });
-});

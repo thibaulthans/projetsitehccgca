@@ -18,14 +18,9 @@ input.custom-file-input{
   background-color: #2d466d;
  }
 
-  /** Dropdow select **/
-
-  select:required:invalid {
-  color: gray;
+ input[type="file"] {
+    display: none;
 }
-option[value=""][disabled] {
-  display: none;
-}
-option {
-  color: black;
+.custom_file_upload input: hover {
+box-shadow :inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
 }
