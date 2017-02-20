@@ -5,6 +5,12 @@ body {
   padding-top: 64px;
 }
 
+
+.border_text {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
  /** test **/
 .boxe_circle{ //text
   border-color: red;

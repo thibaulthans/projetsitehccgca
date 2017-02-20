@@ -49,20 +49,12 @@ box-shadow: 0px -2px 6px 0px #676974;
 }
 
 
-<<<<<<< HEAD
-.why_us, .our_team {
-  height: 350px;
-
-}
-=======
->>>>>>> origin/master
-
 /* BOUTON !!!! */
 
 /* Général */
 
 .btn_home, .btn_home_recruitment, .btn_home_skill {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
   font-size: 20px;
 /*  box-shadow: 0px 0px 7px 1px rgba(98, 96, 107, 0.8);*/
@@ -84,13 +76,11 @@ box-shadow: 0px -2px 6px 0px #676974;
 
 .btn_home_recruitment {
 border-width: 1px;
-bottom: 10px;
 background:rgba(255,255,255,0.3);
 }
 
 .btn_home_skill {
   border-width: 1px;
-  bottom: 10px;
   background:rgba(255,255,255,0.3);
 }
 
@@ -112,13 +102,13 @@ border-color: #2d466d;
 
 @media all and (min-width: 600px)
 {
-  .btn_home_recruitment {
-  margin-top: 71px;
+/*  .btn_home_recruitment {
+  margin-top: 71px;*/
   }
 
-  .why_us, .our_team, .recruitment, .skill {
+/*  .why_us, .our_team, .recruitment, .skill {
     min-height: 250px;
-  }
+  }*/
 
 
 }
@@ -171,6 +161,7 @@ border-color: #2d466d;
 #slide1 {
    background: url(../img/white.PNG) center 0 no-repeat fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
    height: 300px;
 }
 
@@ -178,25 +169,32 @@ border-color: #2d466d;
    background:url(../img/diagmonds--light--1920x1080GRIS.png) center 0 no-repeat fixed;
 =======
    min-height: 350px;
+=======
+>>>>>>> origin/master
 }
 
 #slide2 {
    background:url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
+<<<<<<< HEAD
    min-height: 350px;
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 
 #slide3 {
    background: url(../img/white.PNG) center 0 no-repeat fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    min-height: 350px;
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 
 #slide4 {
    background: url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
-   min-height: 350px;
 }
 
 #slide5 {
