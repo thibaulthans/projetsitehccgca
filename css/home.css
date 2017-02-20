@@ -75,7 +75,7 @@ box-shadow: 0px -2px 6px 0px #676974;
   font-size: 18px;
 }
 
-.btn_home_estimate:hover, .btn_home_recruitment:hover, .btn_home_skill:hover {
+ .btn_home_estimate:hover,.btn_home_recruitment:hover, .btn_home_skill:hover {
   color: white;
 }
 
