@@ -6,7 +6,6 @@
   font-family: "verdana";
 }
 
-
 /**
 .image_background_hcc{
     background-image: url(../img/diagmonds--light--1920x1080GRIS.png);
@@ -54,17 +53,27 @@ box-shadow: 0px -2px 6px 0px #676974;
 /* Général */
 
 .btn_home {
-  box-shadow: 0 10px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     border-radius: 3px;
     background-color: #2d466d;
     height: 40px;
+    font-size: 16px;
+    margin-bottom: 88px;
+}
+
+.btn_home_right {
+  margin-left: 150px;
+}
+
+.btn_home_left {
+  margin-right: 150px;
 }
 
 .btn_home_recruitment, .btn_home_recruitment a:visited, .btn_home_recruitment a:link, .btn_home_skill {
   text-decoration: none;
   margin-bottom: 20px;
-  border-radius: 5px;
-  font-size: 20px;
+  border-radius: 3px;
+  font-size: 16px;
 }
 
 .btn_home_estimate, .btn_home_estimate a:visited, .btn_home_estimate a:link  {
@@ -72,7 +81,7 @@ box-shadow: 0px -2px 6px 0px #676974;
   color: #2d466d;
   margin-bottom: 20px;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
  .btn_home_estimate:hover,.btn_home_recruitment:hover, .btn_home_skill:hover {
