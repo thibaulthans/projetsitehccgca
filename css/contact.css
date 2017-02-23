@@ -24,6 +24,7 @@ form {  /** à revoir **/
   height: 480px;
   border: 0;
   width: 100%;
+  display: list-item;
 }
 
 .mapit {
@@ -35,11 +36,3 @@ form {  /** à revoir **/
 
 
 /* information map pour écran taille tablette ou inférieur */
-
-@media all and (max-width: 768px)
-{
-  .contactinfo {
-    display: list-item;
-    text-align: left;
-  }
-}
